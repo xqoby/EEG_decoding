@@ -73,8 +73,6 @@ class CaputoEncoder(nn.Module):
         return x
 
 
-
-# Test the FreqEncoder model
 def test_model():
     # Instantiate the model and move it to GPU
     model = CaputoEncoder(input_size=250, lstm_size=512, lstm_layers=2, output_size=1024)
